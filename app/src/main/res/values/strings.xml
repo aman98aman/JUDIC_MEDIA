@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JUDIC MEDIA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="musician_basketball_cycling">🎸 Musician 🏀 BasketBall 🚴 Cycling</string>
+    <string name="did_not_receive_the_email"><a>Did not receive the email? Check your Spam folder or try another email address.</a></string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="jayden">\@usernotfound</string>
+    <string name="default_web_client_id" translatable="false">748123528881-t33q4gqh0i8qv2n229j3bjl0klp2th93.apps.googleusercontent.com</string>
+</resources>

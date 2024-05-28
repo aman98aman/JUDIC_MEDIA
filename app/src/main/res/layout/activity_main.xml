@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.MainActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="@color/blue"
+        android:src="@drawable/baseline_add_24"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottomnavigationsbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal">
+        
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:id="@+id/bottomNavigation"
+           android:layout_height="match_parent">
+
+           <ImageView
+               android:id="@+id/homeBtn"
+               android:layout_width="24dp"
+               android:layout_height="24dp"
+               app:tint="@color/white"
+               android:layout_marginStart="42dp"
+               android:layout_marginTop="10dp"
+               android:src="@drawable/hut"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintVertical_bias="0.491" />
+
+           <ImageView
+               app:tint="@color/white"
+               android:id="@+id/exploreBtn"
+               android:layout_width="24dp"
+               android:layout_height="24dp"
+               android:layout_marginStart="42dp"
+               android:layout_marginTop="10dp"
+               android:src="@drawable/compass"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintStart_toEndOf="@+id/homeBtn"
+               app:layout_constraintTop_toTopOf="parent" />
+
+           <ImageView
+               android:id="@+id/userBtn"
+               android:layout_width="24dp"
+               android:layout_height="24dp"
+               android:layout_marginEnd="42dp"
+               android:layout_marginTop="10dp"
+               android:src="@drawable/user"
+               app:tint="@color/white"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintTop_toTopOf="parent" />
+
+           <ImageView
+               android:id="@+id/notifyBtn"
+               android:layout_width="28dp"
+               android:layout_height="28dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="42dp"
+               android:src="@drawable/notification"
+               android:tint="@color/white"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintEnd_toStartOf="@+id/userBtn"
+               app:layout_constraintTop_toTopOf="parent" />
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

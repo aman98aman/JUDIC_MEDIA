@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "748123528881",
+    "project_id": "judic-media-dcf48",
+    "storage_bucket": "judic-media-dcf48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748123528881:android:8c01fae305018f90f90c90",
+        "android_client_info": {
+          "package_name": "com.exmpale.mimi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748123528881-aqma07ullbp966banl9s8dvoedseduo2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exmpale.mimi",
+            "certificate_hash": "fb47378fe51b0a54907c191dbc6aabe8049afa1a"
+          }
+        },
+        {
+          "client_id": "748123528881-t33q4gqh0i8qv2n229j3bjl0klp2th93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkCSANWFuCAM9H3h7_mp6RI9VVGkgS7l8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748123528881-t33q4gqh0i8qv2n229j3bjl0klp2th93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
